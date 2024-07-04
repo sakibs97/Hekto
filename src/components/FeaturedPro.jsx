@@ -47,6 +47,9 @@ const FeaturedPro = () => {
     return (
         <section className="my-8">
             <Container className=''>
+                <div className="text-center my-10">
+                    <h2 className="font-jose font-bold text-[40px] text-[#1A0B5B]">Featured Products</h2>
+                </div>
                 <Slider {...settings}>
                     <div className="">
                         <div className="group  w-[270px]">
@@ -118,14 +121,7 @@ const FeaturedPro = () => {
                             </div>
                         </div>
                     </div>
-
-
-
                 </Slider>
-
-
-
-
             </Container>
         </section>
     )
