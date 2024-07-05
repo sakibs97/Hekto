@@ -39,14 +39,14 @@ const LatestProduct = ({ name, price, pricex }) => {
                         <div className={`${activeTab === 'NewArrival' ? 'block' : 'hidden'}  rounded-lg bg-gray-50 dark:bg-gray-800`} id="NewArrival" role="tabpanel" aria-labelledby="NewArrival-tab">
                             <div className="flex flex-wrap justify-between items-center">
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest2} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest3} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                         <div className="absolute top-[20px] left-[20px]">
@@ -56,42 +56,42 @@ const LatestProduct = ({ name, price, pricex }) => {
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest5} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest3} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest5} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest1} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                         <div className="absolute top-[20px] left-[20px]">
@@ -105,35 +105,35 @@ const LatestProduct = ({ name, price, pricex }) => {
                         <div className={`${activeTab === 'BestSeller' ? 'block' : 'hidden'} rounded-lg bg-gray-50 dark:bg-gray-800`} id="BestSeller" role="tabpanel" aria-labelledby="BestSeller-tab">
                             <div className="flex flex-wrap justify-between items-center">
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
@@ -144,42 +144,42 @@ const LatestProduct = ({ name, price, pricex }) => {
                         <div className={`${activeTab === 'Featured' ? 'block' : 'hidden'} rounded-lg bg-gray-50 dark:bg-gray-800`} id="Featured" role="tabpanel" aria-labelledby="Featured-tab">
                             <div className="flex flex-wrap justify-between items-center">
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest3} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest3} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest2} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest5} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest3} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
@@ -190,42 +190,42 @@ const LatestProduct = ({ name, price, pricex }) => {
                         <div className={`${activeTab === 'SpecialOffer' ? 'block' : 'hidden'} rounded-lg bg-gray-50 dark:bg-gray-800`} id="SpecialOffer" role="tabpanel" aria-labelledby="SpecialOffer-tab">
                             <div className="flex flex-wrap justify-between items-center">
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest5} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest5} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest5} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest5} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>
                                     <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
                                 </div>
                                 <div className="group mb-[20px]">
-                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#FFF] group-hover:bg-[#F7F7F7] ease-in-out duration-500">
                                         <img src={latest4} className="w-[245px] h-[245px] " alt="" />
                                         <LatestProreusable />
                                     </div>

@@ -51,8 +51,8 @@ const FeaturedPro = () => {
                     <h2 className="font-jose font-bold text-[40px] text-[#1A0B5B]">Featured Products</h2>
                 </div>
                 <Slider {...settings}>
-                    <div className="">
-                        <div className="group  w-[270px]">
+                    <div className="mb-3">
+                        <div className="group  w-[270px] drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
@@ -66,7 +66,7 @@ const FeaturedPro = () => {
                         </div>
                     </div>
                     <div className="">
-                        <div className="group  w-[270px]">
+                        <div className="group  w-[270px] drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
@@ -80,7 +80,7 @@ const FeaturedPro = () => {
                         </div>
                     </div>
                     <div className="">
-                        <div className="group  w-[270px]">
+                        <div className="group  w-[270px] drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair2} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
@@ -94,7 +94,7 @@ const FeaturedPro = () => {
                         </div>
                     </div>
                     <div className="">
-                        <div className="group  w-[270px]">
+                        <div className="group  w-[270px] drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair3} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
@@ -107,8 +107,8 @@ const FeaturedPro = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[270px]">
-                        <div className="group ">
+                    <div className="">
+                        <div className="group w-[270px] drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair4} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>

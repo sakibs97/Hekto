@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import LatestProduct from "./components/LatestProduct"
 import Navbar from "./components/Navbar"
 import Shopex from "./components/Shopex"
+import TreandingPro from "./components/TreandingPro"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <FeaturedPro />
       <LatestProduct />
       <Shopex />
+      <TreandingPro />
     </>
   )
 }
