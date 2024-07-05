@@ -3,6 +3,7 @@ import FeaturedPro from "./components/FeaturedPro"
 import Header from "./components/Header"
 import LatestProduct from "./components/LatestProduct"
 import Navbar from "./components/Navbar"
+import Shopex from "./components/Shopex"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <FeaturedPro />
       <LatestProduct />
+      <Shopex />
     </>
   )
 }

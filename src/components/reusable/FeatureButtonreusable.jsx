@@ -2,7 +2,7 @@ import { MdOutlineRemove } from "react-icons/md";
 
 const FeatureButtonreusable = () => {
     return (
-        <div className="text-center w-[270px] py-[15px] bg-[#F7F7F7] group-hover:bg-[#2F1AC4]">
+        <div className="text-center w-[270px] py-[15px] bg-[#F7F7F7] group-hover:bg-[#2F1AC4] ease-in-out duration-500">
             <h6 className="font-lato font-bold text-[18px] text-[#FB2E86] group-hover:text-[#fff]">Cantilever chair</h6>
             <span className="flex items-center justify-center ">
                 <MdOutlineRemove className="text-[#05E6B7] h-10 w-10" />

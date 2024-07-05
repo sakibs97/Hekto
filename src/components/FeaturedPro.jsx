@@ -55,12 +55,12 @@ const FeaturedPro = () => {
                         <div className="group  w-[270px]">
                             <div className="relative">
                                 <img src={chair} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
-                                <button className="absolute bottom-[5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 ease-in-out duration-500">View Details</button>
-                                <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 ease-in-out duration-700">
+                                <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
+                                <div className="absolute top-[-12px] left-[-12px] opacity-0 group-hover:opacity-100 group-hover:left-3 group-hover:top-3 ease-in-out duration-700">
                                     <Featurereusable />
                                 </div>
                             </div>
-                            <div className=" ease-in-out duration-500">
+                            <div className="">
                                 <FeatureButtonreusable />
                             </div>
                         </div>
@@ -69,12 +69,12 @@ const FeaturedPro = () => {
                         <div className="group  w-[270px]">
                             <div className="relative">
                                 <img src={chair} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
-                                <button className="absolute bottom-[5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 ease-in-out duration-500">View Details</button>
-                                <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 ease-in-out duration-700">
+                                <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
+                                <div className="absolute top-[-12px] left-[-12px] opacity-0 group-hover:opacity-100 group-hover:left-3 group-hover:top-3 ease-in-out duration-700">
                                     <Featurereusable />
                                 </div>
                             </div>
-                            <div className=" ease-in-out duration-500">
+                            <div className="">
                                 <FeatureButtonreusable />
                             </div>
                         </div>
@@ -83,12 +83,12 @@ const FeaturedPro = () => {
                         <div className="group  w-[270px]">
                             <div className="relative">
                                 <img src={chair2} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
-                                <button className="absolute bottom-[5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 ease-in-out duration-500">View Details</button>
-                                <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 ease-in-out duration-700">
+                                <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
+                                <div className="absolute top-[-12px] left-[-12px] opacity-0 group-hover:opacity-100 group-hover:left-3 group-hover:top-3 ease-in-out duration-700">
                                     <Featurereusable />
                                 </div>
                             </div>
-                            <div className=" ease-in-out duration-500">
+                            <div className="">
                                 <FeatureButtonreusable />
                             </div>
                         </div>
@@ -97,12 +97,12 @@ const FeaturedPro = () => {
                         <div className="group  w-[270px]">
                             <div className="relative">
                                 <img src={chair3} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
-                                <button className="absolute bottom-[5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 ease-in-out duration-500">View Details</button>
-                                <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 ease-in-out duration-700">
+                                <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
+                                <div className="absolute top-[-12px] left-[-12px] opacity-0 group-hover:opacity-100 group-hover:left-3 group-hover:top-3 ease-in-out duration-700">
                                     <Featurereusable />
                                 </div>
                             </div>
-                            <div className=" ease-in-out duration-500">
+                            <div className="">
                                 <FeatureButtonreusable />
                             </div>
                         </div>
@@ -111,12 +111,12 @@ const FeaturedPro = () => {
                         <div className="group ">
                             <div className="relative">
                                 <img src={chair4} className="w-[270px] h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
-                                <button className="absolute bottom-[5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 ease-in-out duration-500">View Details</button>
-                                <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 ease-in-out duration-700">
+                                <button className="absolute bottom-[-5px] left-[50%] translate-x-[-50%] py-[10px] px-[13px] bg-[#08D15F] font-jose font-medium text-[12px] text-[#FFFFFF] opacity-0 group-hover:opacity-100 group-hover:bottom-[10px] ease-in-out duration-500">View Details</button>
+                                <div className="absolute top-[-12px] left-[-12px] opacity-0 group-hover:opacity-100 group-hover:left-3 group-hover:top-3 ease-in-out duration-700">
                                     <Featurereusable />
                                 </div>
                             </div>
-                            <div className=" ease-in-out duration-500">
+                            <div className=" ">
                                 <FeatureButtonreusable />
                             </div>
                         </div>

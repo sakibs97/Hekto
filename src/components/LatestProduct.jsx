@@ -1,13 +1,21 @@
 import { useState } from 'react';
 import Container from "./Container";
+import LatestProreusable from './reusable/LatestProreusable';
+import latest2 from "../assets/latestpro/latest2.png"
+import latest3 from "../assets/latestpro/latest3.png"
+import latest4 from "../assets/latestpro/latest4.png"
+import latest5 from "../assets/latestpro/latest5.png"
+import latest1 from "../assets/latestpro/latest1.png"
+import NameProLatest from './reusable/NameProLatest';
+import sale from "../assets/latestpro/sale.png"
 
-const LatestProduct = () => {
+const LatestProduct = ({ name, price, pricex }) => {
     const [activeTab, setActiveTab] = useState('NewArrival');
 
     return (
         <section>
-            <Container>
-                <div className="text-center my-10">
+            <Container className='my-10'>
+                <div className="text-center ">
                     <h2 className='font-jose font-bold text-[40px] text-[#1A0B5B]'>Leatest Products</h2>
                 </div>
                 <div className="">
@@ -28,17 +36,202 @@ const LatestProduct = () => {
                         </ul>
                     </div>
                     <div id="default-tab-content">
-                        <div className={`${activeTab === 'NewArrival' ? 'block' : 'hidden'} p-4 rounded-lg bg-gray-50 dark:bg-gray-800`} id="NewArrival" role="tabpanel" aria-labelledby="NewArrival-tab">
-                            <p className="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content for the <strong className="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classNamees to control the content visibility and styling.</p>
+                        <div className={`${activeTab === 'NewArrival' ? 'block' : 'hidden'}  rounded-lg bg-gray-50 dark:bg-gray-800`} id="NewArrival" role="tabpanel" aria-labelledby="NewArrival-tab">
+                            <div className="flex flex-wrap justify-between items-center">
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest2} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest3} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                        <div className="absolute top-[20px] left-[20px]">
+                                            <img src={sale} alt="" />
+                                        </div>
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest5} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest3} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest5} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest1} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                        <div className="absolute top-[20px] left-[20px]">
+                                            <img src={sale} alt="" />
+                                        </div>
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                            </div>
                         </div>
-                        <div className={`${activeTab === 'BestSeller' ? 'block' : 'hidden'} p-4 rounded-lg bg-gray-50 dark:bg-gray-800`} id="BestSeller" role="tabpanel" aria-labelledby="BestSeller-tab">
-                            <h2>hi</h2>
+                        <div className={`${activeTab === 'BestSeller' ? 'block' : 'hidden'} rounded-lg bg-gray-50 dark:bg-gray-800`} id="BestSeller" role="tabpanel" aria-labelledby="BestSeller-tab">
+                            <div className="flex flex-wrap justify-between items-center">
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                            </div>
                         </div>
-                        <div className={`${activeTab === 'Featured' ? 'block' : 'hidden'} p-4 rounded-lg bg-gray-50 dark:bg-gray-800`} id="Featured" role="tabpanel" aria-labelledby="Featured-tab">
-                            <h2>hello</h2>
+                        <div className={`${activeTab === 'Featured' ? 'block' : 'hidden'} rounded-lg bg-gray-50 dark:bg-gray-800`} id="Featured" role="tabpanel" aria-labelledby="Featured-tab">
+                            <div className="flex flex-wrap justify-between items-center">
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest3} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest3} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest2} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest5} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest3} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                            </div>
                         </div>
-                        <div className={`${activeTab === 'SpecialOffer' ? 'block' : 'hidden'} p-4 rounded-lg bg-gray-50 dark:bg-gray-800`} id="SpecialOffer" role="tabpanel" aria-labelledby="SpecialOffer-tab">
-                            <h2>hello</h2>
+                        <div className={`${activeTab === 'SpecialOffer' ? 'block' : 'hidden'} rounded-lg bg-gray-50 dark:bg-gray-800`} id="SpecialOffer" role="tabpanel" aria-labelledby="SpecialOffer-tab">
+                            <div className="flex flex-wrap justify-between items-center">
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest5} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest5} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest5} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest5} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                                <div className="group mb-[20px]">
+                                    <div className="relative pt-5 pb-2 pr-14 pl-16 bg-[#F7F7F7] group-hover:bg-[#fff] ease-in-out duration-500">
+                                        <img src={latest4} className="w-[245px] h-[245px] " alt="" />
+                                        <LatestProreusable />
+                                    </div>
+                                    <NameProLatest name='Comfort Handy Craft' price='$42.00' pricex='$65.00' />
+                                </div>
+                            </div>
                         </div>
                     </div>
 
