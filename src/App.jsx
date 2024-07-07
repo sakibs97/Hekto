@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import DiscountItem from "./components/DiscountItem"
 import FeaturedPro from "./components/FeaturedPro"
 import Header from "./components/Header"
 import LatestProduct from "./components/LatestProduct"
@@ -18,6 +19,7 @@ function App() {
       <LatestProduct />
       <Shopex />
       <TreandingPro />
+      <DiscountItem />
     </>
   )
 }

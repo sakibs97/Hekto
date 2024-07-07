@@ -3,6 +3,11 @@ import tren1 from "../assets/trending/tren1.png"
 import tren2 from "../assets/trending/tren2.png"
 import tren3 from "../assets/trending/tren3.png"
 import tren4 from "../assets/trending/tren4.png"
+import offone from "../assets/trending/off/offone.png"
+import offtwo from "../assets/trending/off/offtwo.png"
+import seat from "../assets/trending/seat/seat.png"
+import seat2 from "../assets/trending/seat/seat2.png"
+import seat3 from "../assets/trending/seat/seat3.png"
 import LatestProreusable from "./reusable/LatestProreusable"
 import NameTrendingreusable from "./reusable/NameTrendingreusable"
 
@@ -59,7 +64,49 @@ const TreandingPro = ({ name, price, pricex }) => {
                             <NameTrendingreusable name='Cantilever chair' price='$26.00' pricex='$42.00' />
                         </div>
                     </div>
-
+                </div>
+                <div className="my-10 flex justify-between items-center">
+                    <div className="w-[30%]">
+                        <div className="relative border-[1px] border-[#FFF6FB] bg-[#FFF6FB] p-[25px] pb-[190px]">
+                            <h6 className="font-jose font-semibold text-[26px] text-[#151875]">23% off in all products</h6>
+                            <button className="font-lato font-semibold text-[16px] text-[#FB2E86] border-b-[2px] border-[#FB2E86]">Shop Now</button>
+                            <div className="absolute bottom-0 right-0">
+                                <img src={offtwo} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[35%]">
+                        <div className="relative border-[1px] border-[#EEEFFB] bg-[#EEEFFB] p-[25px] pb-[190px]">
+                            <h6 className="font-jose font-semibold text-[26px] text-[#151875]">23% off in all products</h6>
+                            <button className="font-lato font-semibold text-[16px] text-[#FB2E86] border-b-[2px] border-[#FB2E86]">View Collection</button>
+                            <div className="absolute bottom-0 right-0">
+                                <img src={offone} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[25%]">
+                        <div className="flex justify-evenly items-center">
+                            <img src={seat} className="px-[20px] py-[5px] bg-[#F5F6F8]" alt="seat" />
+                            <div className="">
+                                <h5 className="font-jose font-semibold text-[16px] text-[#151875]">Executive Seat chair</h5>
+                                <h6 className="font-jose font-normal text-[12px] text-[#151875] line-through">$32.00</h6>
+                            </div>
+                        </div>
+                        <div className="flex justify-evenly items-center my-5">
+                            <img src={seat2} className="px-[20px] py-[5px] bg-[#F5F6F8]" alt="seat2" />
+                            <div className="">
+                                <h5 className="font-jose font-semibold text-[16px] text-[#151875]">Executive Seat chair</h5>
+                                <h6 className="font-jose font-normal text-[12px] text-[#151875] line-through">$32.00</h6>
+                            </div>
+                        </div>
+                        <div className="flex justify-evenly items-center">
+                            <img src={seat3} className="px-[20px] py-[4px] bg-[#F5F6F8]" alt="seat3" />
+                            <div className="">
+                                <h5 className="font-jose font-semibold text-[16px] text-[#151875]">Executive Seat chair</h5>
+                                <h6 className="font-jose font-normal text-[12px] text-[#151875] line-through">$32.00</h6>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </Container>
