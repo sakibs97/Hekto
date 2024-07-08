@@ -4,7 +4,7 @@ import logosp from "../assets/logosp.png"
 const GetUpdate = () => {
     return (
         <section className="my-10">
-            <div className="bg-get-banner pt-[170px] pb-[100px] text-center">
+            <div className='bg-[url("../src/assets/get.png")] bg-no-repeat bg-center bg-cover pt-[170px] pb-[100px] text-center'>
                 <div className="">
                     <h2 className="font-jose font-bold text-[35px] text-[#151875] text-center pb-5">Get Leatest Update By Subscribe <br />
                         0ur Newslater</h2>
@@ -16,7 +16,7 @@ const GetUpdate = () => {
                     <img src={logosp} className="mx-auto" alt="" />
                 </div>
             </Container>
-        </section>
+        </section >
     )
 }
 
