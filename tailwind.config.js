@@ -6,7 +6,11 @@ export default {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'get-banner': "url('./src/assets/get.png')",
+      },
+    },
     fontFamily: {
       'jose': ['Josefin Sans', 'sans-serif'],
       'lato': ['Lato', 'sans-serif'],

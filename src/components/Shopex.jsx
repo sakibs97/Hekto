@@ -5,7 +5,6 @@ import delivery from "../assets/shopex/free-delivery.png"
 import premium from "../assets/shopex/premium.png"
 import uniqsofa from "../assets/shopex/uniqsofa.png"
 
-
 const Shopex = () => {
     return (
         <section>
