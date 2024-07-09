@@ -1,9 +1,11 @@
 import Banner from "./components/Banner"
 import DiscountItem from "./components/DiscountItem"
 import FeaturedPro from "./components/FeaturedPro"
+import Footer from "./components/Footer"
 import GetUpdate from "./components/GetUpdate"
 import Header from "./components/Header"
 import LatestProduct from "./components/LatestProduct"
+import LeatestBlog from "./components/LeatestBlog"
 import Navbar from "./components/Navbar"
 import Shopex from "./components/Shopex"
 import TopCategories from "./components/TopCategories"
@@ -24,6 +26,8 @@ function App() {
       <DiscountItem />
       <TopCategories />
       <GetUpdate />
+      <LeatestBlog />
+      <Footer />
     </>
   )
 }
