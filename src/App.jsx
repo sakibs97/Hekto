@@ -1,33 +1,20 @@
-import Banner from "./components/Banner"
-import DiscountItem from "./components/DiscountItem"
-import FeaturedPro from "./components/FeaturedPro"
-import Footer from "./components/Footer"
-import GetUpdate from "./components/GetUpdate"
-import Header from "./components/Header"
-import LatestProduct from "./components/LatestProduct"
-import LeatestBlog from "./components/LeatestBlog"
-import Navbar from "./components/Navbar"
-import Shopex from "./components/Shopex"
-import TopCategories from "./components/TopCategories"
-import TreandingPro from "./components/TreandingPro"
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
+import RootLayout from "./components/layout/RootLayout"
+import Home from "./page/Home"
+import Shop from "./page/Shop"
 
+let router = createBrowserRouter(createRoutesFromElements(
+  <Route element={<RootLayout />}>
+    <Route index element={<Home />}></Route>
+    <Route path="/shop" element={<Shop />}></Route>
+  </Route>
+))
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Navbar />
-      <Banner />
-      <FeaturedPro />
-      <LatestProduct />
-      <Shopex />
-      <TreandingPro />
-      <DiscountItem />
-      <TopCategories />
-      <GetUpdate />
-      <LeatestBlog />
-      <Footer />
+      <RouterProvider router={router}></RouterProvider>
     </>
   )
 }
