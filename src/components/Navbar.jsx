@@ -12,12 +12,12 @@ const Navbar = () => {
             <Container>
                 <div className="flex justify-between items-center">
                     <div className="w-[10%]">
-                        <img src={Hekto} alt="Hekto" />
+                        <Link to="/"><img src={Hekto} alt="Hekto" /></Link>
                     </div>
                     <div className="flex justify-between items-center w-[80%]">
                         <ul className="flex justify-between items-center w-[50%]">
                             <li className={`font-lato font-normal text-[16px] hover:text-[#FB2E86] ${activeTab === 'Home' ? 'text-[#FB2E86]' : 'text-[#0D0E43]'}`} id="Home-tab" onClick={() => setActiveTab('Home')}><Link to="/">Home</Link></li>
-                            <li className={`font-lato font-normal text-[16px] hover:text-[#FB2E86] ${activeTab === 'Page' ? 'text-[#FB2E86]' : 'text-[#0D0E43]'}`} onClick={() => setActiveTab('Page')}><Link to="/shop">Pages</Link></li>
+                            <li className={`font-lato font-normal text-[16px] hover:text-[#FB2E86] ${activeTab === 'Page' ? 'text-[#FB2E86]' : 'text-[#0D0E43]'}`} onClick={() => setActiveTab('Page')}><Link to="/page">Pages</Link></li>
                             <li className="font-lato font-normal text-[#0D0E43] text-[16px] hover:text-[#FB2E86]">Products</li>
                             <li className="font-lato font-normal text-[#0D0E43] text-[16px] hover:text-[#FB2E86]">Blog</li>
                             <li className="font-lato font-normal text-[#0D0E43] text-[16px] hover:text-[#FB2E86]">Shop</li>

@@ -7,6 +7,7 @@ import DiscountItem from "../components/DiscountItem"
 import TopCategories from "../components/TopCategories"
 import GetUpdate from "../components/GetUpdate"
 import LeatestBlog from "../components/LeatestBlog"
+import Sponser from "../components/Sponser"
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
             <DiscountItem />
             <TopCategories />
             <GetUpdate />
+            <Sponser />
             <LeatestBlog />
         </>
     )

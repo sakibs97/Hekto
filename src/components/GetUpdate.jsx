@@ -1,5 +1,5 @@
-import Container from "./Container"
-import logosp from "../assets/logosp.png"
+import Sponser from "./Sponser"
+
 
 const GetUpdate = () => {
     return (
@@ -11,11 +11,6 @@ const GetUpdate = () => {
                 </div>
                 <button className='font-jose font-normal text-[17px] text-[#fff] px-[48px] py-[20px] bg-[#FB2E86]'>Shop Now</button>
             </div>
-            <Container>
-                <div className="mt-10">
-                    <img src={logosp} className="mx-auto" alt="" />
-                </div>
-            </Container>
         </section >
     )
 }
