@@ -3,12 +3,14 @@ import RootLayout from "./components/layout/RootLayout"
 import Home from "./page/Home"
 import Page from "./page/Page"
 import SPList from "./page/SPList"
+import ProDetails from "./page/ProDetails"
 
 let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout />}>
     <Route index element={<Home />}></Route>
     <Route path="/page" element={<Page />}></Route>
     <Route path="/shop-list" element={<SPList />}></Route>
+    <Route path="/Product-Details" element={<ProDetails />}></Route>
   </Route>
 ))
 

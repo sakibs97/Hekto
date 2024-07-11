@@ -26,7 +26,7 @@ const PageSortBy = () => {
                 <div className="flex items-center">
                     <p className="font-lato font-normal text-[16px] text-[#3F509E] pr-2">View:</p>
                     <Link to="/shop-list"><FaList className="text-[#151875] mr-2" /></Link>
-                    <IoGridSharp className="text-[#151875]" />
+                    <Link to="/page"><IoGridSharp className="text-[#151875] active:bg-black" /></Link>
                 </div>
             </div>
         </div>
