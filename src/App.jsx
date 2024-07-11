@@ -4,6 +4,7 @@ import Home from "./page/Home"
 import Page from "./page/Page"
 import SPList from "./page/SPList"
 import ProDetails from "./page/ProDetails"
+import Blog from "./page/Blog"
 
 let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout />}>
@@ -11,6 +12,7 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="/page" element={<Page />}></Route>
     <Route path="/shop-list" element={<SPList />}></Route>
     <Route path="/Product-Details" element={<ProDetails />}></Route>
+    <Route path="/blog" element={<Blog />}></Route>
   </Route>
 ))
 

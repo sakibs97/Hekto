@@ -10,7 +10,7 @@ const LeatestBlog = () => {
         <section>
             <Container>
                 <div className="text-center my-10">
-                    <h2 className="font-jose font-bold text-[40px] text-[#1A0B5B]">Featured Products</h2>
+                    <h2 className="font-jose font-bold text-[40px] text-[#1A0B5B]">Leatest Blog</h2>
                 </div>
                 <div className="flex justify-between items-center mb-10">
                     <div className="w-[30%] group drop-shadow-lg rounded-lg bg-[#FFFFFF]">
