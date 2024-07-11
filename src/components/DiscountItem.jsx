@@ -125,7 +125,6 @@ const DiscountItem = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </Container>
         </section>
