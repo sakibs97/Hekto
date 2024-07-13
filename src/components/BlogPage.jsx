@@ -5,12 +5,13 @@ import blogp2 from "../assets/blog-page/blogp2.png"
 import blogp3 from "../assets/blog-page/blogp3.png"
 import { ImPen } from "react-icons/im";
 import BlogPost from "./BlogPost"
+import { Link } from "react-router-dom";
 
-const BlogPage = () => {
+const BlogPage = ({ }) => {
     return (
         <section>
             <Bannerreusable headline='Blog Page' pname='Blog Page' home='Home' page='Pages' />
-            <Container className='mb-10 flex justify-between'>
+            <Container className='mb-10 flex justify-around'>
                 <div className="w-[60%]">
                     <div className="">
                         <img src={blogp} alt="" />
@@ -31,7 +32,7 @@ const BlogPage = () => {
                                 <h4 className="font-jose font-bold text-[30px] text-[#151875] mt-6 mb-5">Mauris at orci non vulputate diam tincidunt nec.</h4>
                                 <p className="font-lato font-normal text-[16px] text-[#8A8FB9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.
                                 </p>
-                                <button className="font-lato font-semibold text-[18px] text-[#151875] mt-5 mb-8">Read More </button>
+                                <button className="font-lato font-semibold text-[18px] text-[#151875] mt-5 mb-8"><Link to="/single-blog">Read More</Link></button>
                             </div>
                         </div>
                     </div>

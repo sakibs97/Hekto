@@ -1,5 +1,6 @@
 import BlogPage from "../components/BlogPage"
 import PaginationArea from "../components/pagination/PaginationArea"
+import Sponser from "../components/Sponser"
 
 
 const Blog = () => {
@@ -7,6 +8,7 @@ const Blog = () => {
         <>
             <BlogPage />
             <PaginationArea />
+            <Sponser />
         </>
     )
 }

@@ -6,6 +6,11 @@ import recent4 from "../assets/recent-post/recent4.png"
 import sale from "../assets/recent-post/sale.png"
 import sale2 from "../assets/recent-post/sale2.png"
 import sale3 from "../assets/recent-post/sale3.png"
+import Mask from "../assets/recent-post/Mask.png"
+import Mask2 from "../assets/recent-post/Mask2.png"
+import Mask3 from "../assets/recent-post/Mask3.png"
+import Mask4 from "../assets/recent-post/Mask4.png"
+import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const BlogPost = () => {
     return (
@@ -89,8 +94,62 @@ const BlogPost = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[255px]">
-
+                    <div className="w-[270px]">
+                        <h4 className="font-jose font-semibold text-[22px] text-[#151875] py-[15px]">Offer product</h4>
+                        <div className="flex flex-wrap justify-between">
+                            <div className="py-[15px]">
+                                <img src={Mask} alt="" />
+                                <div className="text-center py-[10px]">
+                                    <h5 className="font-lato font-semibold text-[14px] text-[#151875]">Duis lectus est.</h5>
+                                    <p className="font-lato font-semibold text-[12px] text-[#8A8FB9]">$12.00 - $15.00</p>
+                                </div>
+                            </div>
+                            <div className="py-[15px]">
+                                <img src={Mask2} alt="" />
+                                <div className="text-center py-[10px]">
+                                    <h5 className="font-lato font-semibold text-[14px] text-[#151875]">Duis lectus est.</h5>
+                                    <p className="font-lato font-semibold text-[12px] text-[#8A8FB9]">$12.00 - $15.00</p>
+                                </div>
+                            </div>
+                            <div className="py-[15px]">
+                                <img src={Mask3} alt="" />
+                                <div className="text-center py-[10px]">
+                                    <h5 className="font-lato font-semibold text-[14px] text-[#151875]">Duis lectus est.</h5>
+                                    <p className="font-lato font-semibold text-[12px] text-[#8A8FB9]">$12.00 - $15.00</p>
+                                </div>
+                            </div>
+                            <div className="py-[15px]">
+                                <img src={Mask4} alt="" />
+                                <div className="text-center py-[10px]">
+                                    <h5 className="font-lato font-semibold text-[14px] text-[#151875]">Duis lectus est.</h5>
+                                    <p className="font-lato font-semibold text-[12px] text-[#8A8FB9]">$12.00 - $15.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="">
+                        <h4 className="font-jose font-semibold text-[22px] text-[#151875] py-[15px]">Follow</h4>
+                        <div className="flex items-center w-[130px] justify-between">
+                            <div className="p-1 bg-[#5625DF] rounded-full">
+                                <FaFacebookF className="text-[#fff] w-[25px] h-[25px]" />
+                            </div>
+                            <div className="p-1 bg-[#FF27B7] rounded-full">
+                                <FaInstagram className="text-[#fff] w-[25px] h-[25px]" />
+                            </div>
+                            <div className="p-1 bg-[#37DAF3] rounded-full">
+                                <FaTwitter className="text-[#fff] w-[25px] h-[25px]" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pt-[15px]">
+                        <h4 className="font-jose font-semibold text-[22px] text-[#151875] py-[15px]">Tags</h4>
+                        <div className="flex flex-wrap justify-between">
+                            <h6 className="font-lato font-normal text-[16px] text-[#151875] underline decoration hover:text-[#FB2E86] ease-in-out duration-500">General</h6>
+                            <h6 className="font-lato font-normal text-[16px] text-[#151875] underline decoration hover:text-[#FB2E86] ease-in-out duration-500">Atsanil</h6>
+                            <h6 className="font-lato font-normal text-[16px] text-[#151875] underline decoration hover:text-[#FB2E86] ease-in-out duration-500">Insas.</h6>
+                            <h6 className="font-lato font-normal text-[16px] text-[#151875] underline decoration hover:text-[#FB2E86] ease-in-out duration-500">Bibsaas</h6>
+                            <h6 className="font-lato font-normal text-[16px] text-[#151875] underline decoration hover:text-[#FB2E86] ease-in-out duration-500">Nulla.</h6>
+                        </div>
                     </div>
                 </div>
             </div>
