@@ -4,12 +4,13 @@ import blogp from "../assets/blog-page/blogp.png"
 import blogp2 from "../assets/blog-page/blogp2.png"
 import blogp3 from "../assets/blog-page/blogp3.png"
 import { ImPen } from "react-icons/im";
+import BlogPost from "./BlogPost"
 
 const BlogPage = () => {
     return (
         <section>
             <Bannerreusable headline='Blog Page' pname='Blog Page' home='Home' page='Pages' />
-            <Container className='mb-10'>
+            <Container className='mb-10 flex justify-between'>
                 <div className="w-[60%]">
                     <div className="">
                         <img src={blogp} alt="" />
@@ -80,6 +81,9 @@ const BlogPage = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="">
+                    <BlogPost />
                 </div>
             </Container>
         </section>
