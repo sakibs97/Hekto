@@ -3,7 +3,6 @@ import hours from "../assets/shopex/24hours.png"
 import cashback from "../assets/shopex/cashback.png"
 import delivery from "../assets/shopex/free-delivery.png"
 import premium from "../assets/shopex/premium.png"
-import uniqsofa from "../assets/shopex/uniqsofa.png"
 
 const Shopex = () => {
     return (
@@ -43,9 +42,6 @@ const Shopex = () => {
                     </div>
                 </div>
             </Container>
-            <div className="bg-[#F1F0FF] flex justify-center mb-10">
-                <img src={uniqsofa} alt="uniqsofa" />
-            </div>
         </section>
     )
 }

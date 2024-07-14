@@ -10,11 +10,16 @@ import seat2 from "../assets/trending/seat/seat2.png"
 import seat3 from "../assets/trending/seat/seat3.png"
 import LatestProreusable from "./reusable/LatestProreusable"
 import NameTrendingreusable from "./reusable/NameTrendingreusable"
+import uniqsofa from "../assets/shopex/uniqsofa.png"
+
 
 const TreandingPro = ({ name, price, pricex }) => {
     return (
         <section>
             <Container>
+                <div className="bg-[#F1F0FF] flex justify-center mb-10">
+                    <img src={uniqsofa} alt="uniqsofa" />
+                </div>
                 <div className="text-center my-10">
                     <h2 className="font-jose font-bold text-[40px] text-[#1A0B5B]">Trending Products</h2>
                 </div>

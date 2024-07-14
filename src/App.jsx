@@ -6,6 +6,7 @@ import SPList from "./page/SPList"
 import ProDetails from "./page/ProDetails"
 import Blog from "./page/Blog"
 import SingleBlog from "./components/SingleBlog"
+import AboutUs from "./page/AboutUs"
 
 let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout />}>
@@ -15,6 +16,7 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="/Product-Details" element={<ProDetails />}></Route>
     <Route path="/blog" element={<Blog />}></Route>
     <Route path="/single-blog" element={<SingleBlog />}></Route>
+    <Route path="/About-Us" element={<AboutUs />}></Route>
   </Route>
 ))
 

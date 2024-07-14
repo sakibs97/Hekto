@@ -1,6 +1,7 @@
 import Container from "./Container"
 import logo from "../assets/Hekto.png"
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -44,7 +45,7 @@ const Footer = () => {
                             <div className="">
                                 <h6 className="pb-[20px] font-jose font-semibold text-[22px] text-[#000000]">Pages</h6>
                                 <ul>
-                                    <li className="py-[10px] font-lato font-normal text-[16px] text-[#8A8FB9]">Blog</li>
+                                    <li className="py-[10px] font-lato font-normal text-[16px] text-[#8A8FB9] hover:text-[#FB2E86] ease-in-out duration-500"><Link to='/About-Us'>About Us</Link></li>
                                     <li className="py-[10px] font-lato font-normal text-[16px] text-[#8A8FB9]">Browse the Shop</li>
                                     <li className="py-[10px] font-lato font-normal text-[16px] text-[#8A8FB9]">Category</li>
                                     <li className="py-[10px] font-lato font-normal text-[16px] text-[#8A8FB9]">Pre-Built Pages</li>
