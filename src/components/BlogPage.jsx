@@ -7,7 +7,7 @@ import { ImPen } from "react-icons/im";
 import BlogPost from "./BlogPost"
 import { Link } from "react-router-dom";
 
-const BlogPage = ({ }) => {
+const BlogPage = () => {
     return (
         <section>
             <Bannerreusable headline='Blog Page' pname='Blog Page' home='Home' page='Pages' />

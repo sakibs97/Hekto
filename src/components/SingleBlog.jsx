@@ -9,9 +9,12 @@ import single4 from "../assets/blog-page/single4.png"
 import { ImPen } from "react-icons/im";
 import Bannerreusable from "./reusable/Bannerreusable";
 import BlogPost from "./BlogPost";
+import Sponser from "./Sponser";
 import LatestProreusable from "./reusable/LatestProreusable"
 import { FaStar } from "react-icons/fa";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import SingleBlogPagination from "./pagination/SingleBlogPagination"
+import BlogComment from "./BlogComment"
 
 const SingleBlog = () => {
     return (
@@ -154,11 +157,13 @@ const SingleBlog = () => {
                                 </div>
                             </div>
                         </div>
-
+                        <SingleBlogPagination />
+                        <BlogComment />
                     </div>
                 </div>
                 <BlogPost />
             </Container>
+            <Sponser />
         </section>
     )
 }
