@@ -58,6 +58,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="">
                     <h4 className="font-jose font-bold text-[42px] text-[#000000] text-center">Our Client Say!</h4>
                 </div>
