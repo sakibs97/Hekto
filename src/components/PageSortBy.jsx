@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FaList } from "react-icons/fa";
 import { IoGridSharp } from "react-icons/io5";
 
@@ -25,8 +24,8 @@ const PageSortBy = () => {
                 </div>
                 <div className="flex items-center">
                     <p className="font-lato font-normal text-[16px] text-[#3F509E] pr-2">View:</p>
-                    <Link to="/shop-list"><FaList className="text-[#151875] mr-2" /></Link>
-                    <Link to="/page"><IoGridSharp className="text-[#151875] active:bg-black" /></Link>
+                    <FaList className="text-[#151875] mr-2" />
+                    <IoGridSharp className="text-[#151875] active:bg-black" />
                 </div>
             </div>
         </div>
